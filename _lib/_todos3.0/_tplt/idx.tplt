@@ -1,0 +1,177 @@
+<? //session_cache_limiter('private'); ?>
+<?php  include_once ($_SERVER['DOCUMENT_ROOT'] . "/_lib/Todos/todosInclude.php"); ?>
+<?php if (SITE_HDR) include_once ($_SERVER['DOCUMENT_ROOT'] . SITE_HDR); ?>
+<?php
+
+	### Process POST or GET args
+
+		$args = $_POST;
+		if(!$args) $args = $_GET;
+		if(0) var_dump($args);
+		if(0) var_dump($_REQUEST);
+		if(0) var_dump($_SERVER);
+		fixFormVars($args);
+	### Set some argument defaults
+		if(! $args['rspage']) $args['rspage']=1;
+	
+
+	## Set Page Variables
+		$rec_pid	= $args['pid'];
+		$pAction 	= $args['pAction'];
+		$page_id	= $args['page_id'];
+		$cat_pid	= $args['cat_pid'];
+		$cat_title	= $args['cat_title'];
+		$td_class	= $args['td_class'];
+		$flgEdit	= $args['flgEdit'];
+		$flgAllColumns	= $args['flgAllColumns'];
+		$flgShowInactive= $args['flgShowInactive'];
+		$srch_terms	= $args['srch_terms'];
+		$bass_class 	= todosGetCatVal($cat_pid,TD_PNAME_BASS_CLASS);
+		$col_names	= $args['col_names'];
+
+		$confirm	= $args['confirm'];
+		$cancel		= $args['cancel'];
+		$flgRecursion	= $args['flgRecursion'];
+
+
+	### Make heroic efforts to determine params if not provided
+		$cat_pid = getCatPID($cat_pid);
+		if(!$bass_cat){ $bass_cat = $cat_pid;}
+		## Put cat_pid  into the arguments array so ListCategory will get it
+		$args['cat_pid'] = $cat_pid;
+
+		if(! $td_class) $td_class = todosGetCatVal($cat_pid,TD_PNAME_BASS_CLASS);
+		//if (is_dir($cat_pid)) $cat_pid .= INDEX_FILE;
+		//if (substr($cat_pid,(strlen($cat_pid)-1)) == '/') $cat_pid .= INDEX_FILE;
+		if(! $cat_pid)   $cat_pid = todosGetPID_Title($cat_title,IDX_1);
+		if(($cat_title == null) || ($cat_title == '')){
+			 $cat_title = todosGetField($cat_pid,'tdTitle',IDX_1);
+			 if (is_array($cat_title)) $cat_title = $cat_title[0];
+		}
+		if(! $col_names) $col_names = todosGetClassVal($td_class, TD_PNAME_COL_NAMES,0);
+		if($flgAllColumns){ 
+					$col_names = '*';
+					$args['col_names'] = '*';
+		}
+	###### DEBUG ############
+	$args['debug'] = 0;
+	#if(0) var_dump($args);
+	#if(0) print("PACTION: $pAction<br>");
+	##if(0) print("page_id: $page_id<br>");
+	#if(0) print("catAdmin: $bass_cat,$cat_pid,$cat_title,$td_class,$pAction<br>");
+	#if(0) exit;
+	########################
+		switch($pAction){
+			
+			case "GoCategory"
+					:	
+						$args['rspage']=1;
+						break;
+			
+			default		: break;
+		}
+
+	function getRefererPID(){
+			$site_root = SITE_ROOT;
+			$site_root = chop($site_root,'/');
+			$site_root = preg_replace('/\//',"\/",$site_root);
+			$pid = $_SERVER['HTTP_REFERER'];
+			$pid = preg_replace('/\/\w+\.php.*/','/',$pid);
+			$pid = preg_replace("/$site_root/", '', $pid);
+			if (substr($pid,(strlen($pid)-1)) == '/') $pid .= INDEX_FILE;
+			return($pid);
+	}
+
+################################## ACL ###################################################
+
+	// Protect for admin users only
+	//if(! $gFlgAdmin) exit;
+
+	$ADMIN_LEVEL = 99;
+	//$logged_in = lib_login_valid_user();
+	//if($logged_in) $gid = lib_login_get_user_group_max();
+	//if($gid >= $ADMIN_LEVEL) $modeAdmin = 1;
+
+################################## END OF ACL  ###################################################
+
+
+?>
+<html>
+	<head><title><? echo($cat_title)?></title></head>
+	<body>
+		
+<h1><? echo($cat_title) ?> </h1>
+
+<?php
+    $frmAction = $_REQUEST["PHP_SELF"];
+    $strDebug = "?DBGSESSID=1;d=1";
+    $frmAction .= $strDebug;
+?>
+<form name=frmSrchMain method=get action="">
+  <input type=hidden name="pAction" value="Category">
+<?//
+  <input type=hidden name=DBGSESSID value="1;d=1">
+?>
+  <table>
+     <tr> 
+            <td colspan=4> 
+    <tr>
+      <td>Category: 
+
+      <td> 
+	<?  
+	    #if($cat_pid) todosSelectCategory($cat_pid,$cat_pid,0,0); 
+	    if($cat_pid) todosSelectStruct($cat_pid,$cat_pid,'subcat','cat_pid',0,0); 
+	    else todosSelectStruct('',$cat_pid,'subcat','cat_pid',0,0); 
+	
+	?>
+      <td>TD Class: 
+      <td> 
+	<? todosSelectClass('td_class',$td_class,'',0,1,1,1,"this.form.col_names.value=''"); ?>
+		Show inactive:
+		<input type=checkbox name='flgShowInactive' value=1 
+			<? if ($flgShowInactive) print "checked" ?>
+			onclick="this.form.submit();" >
+    <tr>
+	<td>
+	<td colspan=1 > Search: <input name=srch_terms value="<?=$srch_terms;?>">
+	<input type=submit value="Go" onclick="this.form.pAction.value='GoCategory';">
+	<td>Display Columns:
+	<td> 
+		<input type=checkbox name='flgAllColumns' value=1 
+			<? if ($flgAllColumns) print "checked" ?>
+			onclick="this.form.submit();" >
+		<input name='col_names' value='<?=$col_names;?>'>
+    <tr>
+	
+     <tr> 
+       <td colspan=4 align=center> 
+
+  </table>
+</form>
+<form>
+<?
+
+		if(0) print("pAction: $pAction<br>");
+		switch($pAction){
+			case "GoCategory" : 
+					$args['rspage']=1;
+					if(0) var_dump($args);
+					if(0) exit;
+					todosListCategory_Form($args);break;
+			default 	: todosListCategory_Form($args);break;
+		}
+		
+	
+?>
+</form>
+<script language="javascript">
+		$frm = 'frmSrchMain';
+		$1st = 'srch_terms';
+                $idx = 0;
+		$form = document.forms[$frm];
+		$elem = $form.elements[$1st];
+                //alert($elem.name);
+		$elem.focus();
+		$elem.select();
+</script>

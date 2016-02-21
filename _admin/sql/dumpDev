@@ -1,0 +1,11 @@
+#!/bin/sh
+
+## To load this back into mysql, use "source <name_of_file>"
+## or command line like mysql todosCCB -f < todosCCB.sql
+
+mv sql_DB.sql sql_DB.1.sql
+mysqldump todosCCB > sql_DB.sql
+
+cvs commit -m 'Data updates - Dev' -f sql_DB.sql
+#cvs commit -m 'Data updates' -f sql_DB.sql diff.sql sql_archive.sql sql_updates.sql
+#ssh -l prayforb www.prayforburma.org 'source .bashrc; cd www/_admin/sql; cvs update'

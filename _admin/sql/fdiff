@@ -1,0 +1,116 @@
+#!/usr/local/bin/perl  -w -s
+
+$DEBUG = 1;
+
+#  Fix a bunch of DB diff lines for processing into remote database
+
+
+#       o Open file
+#	o Search for  < lines, make into INSERTS (easy)
+#	o Search for  > lines, make into DELETES (harder)
+#	o Search for  table definitions, insert Table Drop if exists
+#	o Search for  table modifications, turn into TABLE update statements (impossible)
+#
+#	Assumes that diff is: diff new.file old.file
+
+$log_file = 'fdiff.log';
+
+#$match = '\$DOCUMENT_ROOT';         #Search for whatever you want here
+#$match = '\<\!--\w*#INCLUDE.*header2.shtml.*--\>';         #Search for whatever you want here
+#$match = '\<\!--\w*#INCLUDE.*footer.*--\>';         #Search for whatever you want here
+#$match = '^\s*\"\);?\?\>\s*';
+#$replace = '$_SERVER[DOCUMENT_ROOT]' ;
+#$replace = '<?php include("$_SERVER[DOCUMENT_ROOT]/_include/ch.php");?>' ;
+#$replace= '<?php include("$_SERVER[DOCUMENT_ROOT]/_include/cf.php");?>' ;
+
+#$match = 'include\(';
+#$replace = 'include_once(';
+
+
+$m_in = '^< (INSERT.*)';
+$m_out = '^> INSERT INTO (.*) VALUES \((\d+).*';
+# e.g.,
+#> INSERT INTO tblTodos VALUES (1779,'/News/idx','idx3','subcat','','/News/Sources/idx','','News','','MANUAL','1775',20031012155558,20031012155558,NULL,1,'0','');
+
+$argc = @ARGV;
+$ct = 0;
+if($argc==0){&usage()}
+while (@ARGV){
+	$file = pop @ARGV;
+	push @files,$file;
+}
+if (! (-f $file)){&usage()}
+$ct = &fixFiles(\@files,$match,$replace);
+
+print ("\nfound $ct matching lines\n");
+
+#########################################################################
+sub fixFiles {
+        ($files,$oldtext,$newtext) = @_;
+	my $ctr2=0;
+        foreach $file_name (@$files)
+        {
+                if (! (-f $file_name)){
+                        # File dissappeared
+                        logIt("File $file_name not found");
+                        next;
+                }
+                # OTHERWISE, SEARCH AND REPLACE
+                my $file_new = $file_name . ".new";
+                my $file_bak = $file_name . ".bak";
+                open (FILE, "+<$file_name");
+                open (FILE2, "+>$file_new");
+                $ding = 0;              #Ring the bell when a file changes
+                my @all_lines = <FILE>;
+                foreach $line (@all_lines)
+                {
+                        if ($line =~ /$m_in/){
+                                $line =~ s/$m_in/$1/;
+                                $ding=1;
+				$ctr2++;
+                                print FILE2 $line;
+                        }
+			elsif($line =~ /$m_out/){
+				$line =~ s/$m_out/DELETE FROM $1 WHERE tdID=$2;/;
+                                $ding=1;
+				$ctr2++;
+                                print FILE2 $line;
+			}
+                        else {
+				###
+                                # print FILE2 $line;
+				###
+                        }
+
+                }#end of foreach
+                close (FILE);
+                close (FILE2);
+                if($ding){
+                        $ctr1++;
+                        rename $file_name, $file_bak;
+                        rename $file_new, $file_name;
+                }
+                ### CLEANUP
+                  unlink FILE2;
+		  if(! $DEBUG){ if(-f($file_name)){unlink $file_bak;}}
+                  if(-f($file_new)){unlink $file_new;}
+        }#end of foreach
+        return($ctr2);
+}#end of fixfiles
+
+sub logIt{
+	($msg)= @_;
+	$msg .= "\n";
+	open (FILE, "+>$log_file");
+	print FILE $msg;
+	close(FILE);
+	return(0);
+}
+sub usage{
+        print " fdiff <file_match>\n";
+        print " \n";
+        print "         sql updates File search and replace\n";
+        print "\n";
+        exit;
+}
+

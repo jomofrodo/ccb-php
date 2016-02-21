@@ -1,0 +1,56 @@
+      <!-- CCB Main header file -->
+      <title>
+         Christians Concerned for Burma
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <link rel="stylesheet" href="/_lib/HMenu.css">
+      <link rel="stylesheet" href="/_lib/ccb_main.css">
+
+   </head>
+
+   <body bgcolor="#FFFFFF" onload="initMenu()">
+<script language="javascript" src="/_lib/ccb.js" type="text/javascript">
+</script>
+<script language="javascript" src="/_lib/HMenu.js" type="text/javascript">
+</script>
+      
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+            
+    <td rowspan="3" valign="top" bgcolor="#F2F9FF"> <a href="http://www.prayforburma.org"><img src= 
+               "/images/icon_logo.gif" border="0"></a> </td>
+            
+    <td colspan="2" background="/images/chiandao1.jpg"> <a href="http://www.prayforburma.org"><img src= 
+               "/images/banner2.gif" width="515" border="0" align="left"
+               height="91"></a> </td>
+            
+    <td bgcolor="#F2F9FF" background="/images/chiandao2.jpg"> <img src="/images/shim.gif" width="78" height="8"> 
+    </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#000099">
+               <!-- Menu  Bar -->
+	   	
+      <table cellspacing="4">
+        <tr class="topnav"> 
+          <td>&nbsp;<a onmouseover="closeAll();showMenu(menu1,100,135);" href="javascript:void(0)"  class="topnav">Prayer</a> 
+          <td>|<a onmouseover="closeAll();showMenu(menu2,180,135);" href="javascript:void(0)" menu="menu2" class="topnav"> 
+            News</a> 
+          <td>| <a onmouseover="closeAll();showMenu(menu3,250,135);" href="javascript:void(0)" menu="menu3" class="topnav"> 
+            IDP&nbsp;Info</a> 
+          <td>| <a onmouseover="closeAll();showMenu(menu4,350,135);" href="javascript:void(0)" menu="menu4" class="topnav"> 
+            Resources&nbsp;&amp;&nbsp;Context</a> 
+        </tr>
+	</table>
+	  <table cellspacing="4">
+        <tr class="topnav" > 
+          <td>|&nbsp;<a onmouseover= "closeAll();showMenu(menu5,100,165);" href="javascript:void(0)" menu="menu5" class="topnav">Contact</a> 
+          <td>|&nbsp;<a onmouseover="closeAll();showMenu(menu6,160,165);" href="javascript:history.go(0)" menu="menu6" class="topnav">Free&nbsp;Burma&nbsp;Rangers</a> 
+        </tr>
+	  </table>
+           </td>
+          
+	<td bgcolor="#000099"> <!--#INCLUDE virtual="/_lib/menus.htm"-->&nbsp; </td>
+         </tr>
+      </table>
+      <!-- END OF HEADER -->

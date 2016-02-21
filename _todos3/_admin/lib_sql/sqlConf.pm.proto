@@ -1,0 +1,10 @@
+#!/usr/local/bin/perl -d -w
+
+package TODOS::tdMain;
+use vars qw($passwd $login $dbase);
+use FindBin qw($Bin);
+
+$passwd_prod = 'DwyerDataPW';
+$login_prod  = 'dwyerdata';
+$dbase_dev  = 'todosDI_dev';
+$dbase_prod  = 'todosDI_d3_1';

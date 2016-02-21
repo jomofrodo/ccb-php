@@ -1,0 +1,15 @@
+Date: Sat, 21 Jun 2008 14:26:27 -0700
+Return-Path: unit_test@phpmailer.sf.net
+To: Test User <adf>
+Cc: Carbon User <adf>
+From: Unit Tester <unit_test@phpmailer.sf.net>
+Reply-To: Reply Guy <no_reply@phpmailer.sf.net>
+Subject: Unit Test: AltBody + Attachment
+Message-ID: <d4cb5a543b227cf3afcddf749c52b831@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.0 rc3]
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_d4cb5a543b227cf3afcddf749c52b831"
+
+

@@ -1,0 +1,4 @@
+update_production.sh
+
+SCP the given file or directory up to the CCB production website
+jm 3/2003

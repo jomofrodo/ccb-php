@@ -1,0 +1,212 @@
+<?
+
+include_once("$_SERVER[DOCUMENT_ROOT]/_include/ch_fr.php"); 
+
+?> 
+<html>
+<head>
+<title> CCB </title>
+<link rel="stylesheet" href="/css/ccb_main.css">
+</head>
+<body>
+<!--<div id="Page"><table class="mainbodycell" width=100%><tr><td>-->
+<h1>Journée mondiale de prière pour la Birmanie - Le 9 mars 2008 </h1>
+<table><tr><td>
+<p>Message adressé par un dirigeant d'équipe de secours entraînant de nouvelles 
+  équipes en territoire birman alors que nous programmions la journée de prière 
+  de cette année.
+<p>Chers amis,
+<p>Je suis reconnaissant à vous tous qui portez dans vos prières et dans vos coeurs 
+  le peuple birman, ainsi qu'à Dieu qui tient toutes choses en Sa main. Alors 
+  que je promène mes regards sur la belle vallée couverte de jungle, sur les torrents 
+  qui cascadent et sur les nouvelles équipes enthousiastes, je suis empli de gratitude. 
+  Tout cela est un cadeau de Dieu et de ceux de vous qui nous y aident.
+<p>Il m'a été rappelé à nouveau que nous ne pouvons faire cela seuls, ni n'avons 
+  jamais rien pu faire ici seuls. Cette pensée me remplit d'émeveillement pour 
+  la façon dont Dieu pourvoit et pour la générosité et l'ampleur de vision de 
+  gens tels que vous. Cela nous motive aussi tous ici à faire de notre mieux pour 
+  vivre des vies abondantes, libres et utiles qui glorifient Dieu et vous honorent 
+  tous.
+<p>Nous croyons ce qui suit:<br>
+  1) Dieu aime le peuple de Birmanie et nous nous devons d'être forts dans la 
+  souveraine puissance de Dieu.<br>
+  2) Le cavalier monté sur un cheval blanc d'Apocalypse 19: 11 à 14 va combattre 
+  en faveur des opprimés.<br>
+  3) Nous allons devoir progresser en profondeur et aller de l'avant, et non nous 
+  étaler en surface ou avancer, ni superficiellement, ni en déviant de notre route.<br>
+  4) Dieu révèle à la lumière ce qui se tapit dans les ténèbres.
+<p>Nous nous souvenons et recevons l'inspiration que Dieu veille et agit dans 
+  tous les aspects de nos vies.<br>
+  Merci à tous pour vos prières, votre amour et votre soutien.
+<p>Dieu vous bénisse.
+<p>Un chef d'équipe de secours, Etat Karen, Birmanie.
+      <h2> <br>
+        La Dignité Humaine. </h2>
+      <p>Les Rangers pour la Birmanie libre (Free Burma Rangers, FBR) sont un mouvement 
+  de service humanitaire pluri-ethnique. Ils apportent secours,espoir et amour 
+  aux populations dans les zones en guerre de Birmanie. Des groupes ethniques 
+  partisans de la démocratie leur envoient des équipes en vue d'être entraînées, 
+  approvisionnées et dirigées vers les secteurs victimes d'attaque en vue de dispenser 
+  de l'assistance d'urgence et de dresser des constats sur les droits humanitaires. 
+  Les équipes constituent également un réseau de communication et d'information 
+  à l'intérieur de la Birmanie qui fournit une information en temps réel en provenance 
+  des zones attaquées. En synergie avec d'autres groupes, les équipes oeuvrent 
+  à servir les populations en détresse. La lettre qui suit est celle d'un médecin 
+  qui travaille avec les Rangers pour la Birmanie libre. Elle tente de répondre 
+  aux questions des motivations et des modalités de l'engagement en Birmanie.<br>
+  "J'écris depuis les jungles de la Birmanie orientale où je donne un enseignement 
+  supérieur de secourisme aux FBR.<br>
+  Dans sa publication intitulée "une campagne de brutalités" (http://www.freeburmarangers.org/Features/20070315_NorthernKarenState.pdf), 
+  FBR donne dix bonnes raisons de s'engager pour la Birmanie. La toute première 
+  de la liste est le combat pour la dignité humaine. Dans un pays tel que la Birmanie, 
+  la valeur d'une vie humaine devient bien plus que l'objet d'un quelconque débat 
+  spéculatif détaché. Cela devient un enjeu sérieux et tout à fait personnel.<br>
+  Alors que je me débattais avec le problème de la dignité humaine, j'ai décidé 
+  de m'enquérir de l'opinion des infirmiers sur le sujet. L'un d'eux, Raykaw, 
+  m'a répondu: "Parce qu'un jour Dieu nous a accordé son amour, de même nous avons 
+  besoin de nous aimer, de nous aider les uns les autres. C'est ça notre dignité." 
+  Alors je lui ai demandé si cela s'appliquerait à un soldat de l'armée birmane 
+  blessé, qui viendrait vers lui se faire soigner. D'abord, Raykaw m'a regardé 
+  comme s'il n'avait pas compris la question. Et puis, d'un ton posé et réfléchi, 
+  il a répliqué: "Pour moi, si [un soldat de l'armée birmane] venait me trouver, 
+  je voudrais le secourir. Ces gens ont besoin de secours et d'aide. Par exemple, 
+  si quand nous les voyons, il n'y a personne pour arrêter l'hémorragie, ils auront 
+  besoin de secours pour sauvegarder leur vie. Selon moi, nous devons les secourir. 
+  S'ils se comportent mal ensuite, pas de problème... C'est leur affaire." Tels 
+  sont les propos d'un infirmier très expérimenté, quelqu'un qui a été témoin 
+  oculaire des atrocités commises par l'armée birmane. Quelqu'un qui a passé des 
+  années à risquer sa vie pour apporter une aide médicale à des gens qui se cachaient 
+  dans la jungle pour chercher abri contre l'armée birmane. Un homme qui, dans 
+  son enfance, avait lui-même été contraint de fuir son foyer par ces mêmes soldats. 
+  Pour Raykaw, son sens de la dignité humaine consiste à être à même de donner 
+  aux autres, ses ennemis compris.Point à la ligne. Sa déclaration mûrement réfléchie 
+  se voit confirmée par l'expérience de sa vie en tant qu'infirmier des FBR.<br>
+  Le don est à l'évidence un aspect de la nature même de Dieu. En tant que créatures 
+  faites à Son image, le don devient un aspect de notre propre dignité humaine 
+  Y compris dans le cas où, comme le disait Raykaw, cela signifie donner à un 
+  ennemi qui s'empresserait de se retourner pour nous faire du mal. J'en suis 
+  venu à la conviction que notre dignité humaine consiste dans notre aptitude 
+  à faire montre de chacune des caractéristique de celui qui nous a faits. Le 
+  don généreux. La créativité. L'amour. Le courage. La bonté. Le libre arbitre. 
+  Et faire cela pour la seule raison que cela est de Dieu. Parce que c'est bon 
+  en vérité. S'il en est bien ainsi, lors c'est notre devoir, notre honneur, et 
+  même notre dignité de Chrétiens de rendre capables tous les êtres humains et 
+  de protéger leur capacité de faire la démonstration de ces caractéristiques 
+  dans leur vie.<br>
+  Telle est la raison qui fait que je crois juste et d'une importance déterminante 
+  pour un chrétien de se sentir impliqué en Birmanie. Pour la simple raison énoncée 
+  par les FBR... "pour la dignité humaine". Selon moi, cela ne répond pas seulement 
+  aux motivations pour lesquelles se sentir impliqué, cela répond aussi aux questions 
+  sur la manière de s'engager: "Parce qu'un jour Dieu nous a accordé son amour, 
+  de même, nous avons besoin de nous aimer, de nous aider les uns les autres." 
+  C'est ça notre dignité - aimer jusqu'à nos ennemis."<br>
+  [Picture 1 legend]: Courses à pied lors d'une fête de noël dans le nord de l'Etat 
+  Karen.<br>
+  [2]: Une enseignante distribue des couvertures à des Déplacés de l'Intérieur. 
+  Saw Wah Der, janv. 07.
+<p>
+      <h2> <br>
+        Le Club Bien Vivre </h2>
+      <p>Lettre d'un membre d'équipe des Partenaires aidant le FBR (Rangers pour la 
+  Birmanie libre) à la formation des conseillers du Club Bien Vivre.
+<p>"Oui, je sais ce qu'on ressent", disait Kaw Bla Sei. "Ma mère et moi avons 
+  été capturés par l'armée birmane quand j'avais 5 ans. Pendant une journée entière 
+  ils nous ont traînés dans la jungle, sans nourriture ni eau. Après ils nous 
+  ont laissés partir. A la suite de cela j'avais toujours peur. Je ne me suis 
+  jamais sauvé avant l'âge de 12 ans."
+<p>Le groupe auquel je m'adressais était celui des Conseillers du Bien Vivre. 
+  Ce sont des hommes et des femmes qui vont se concentrer sur les besoins des 
+  enfants lorsque, ensemble avec le reste de l'équipe de secours dont ils font 
+  partie, ils pénètrent dans un village ou un site de Déplacés de l'Intérieur. 
+  "Pourquoi les enfants sont-ils importants?": telle est ma question. "Parce qu'ils 
+  sont le futur" est la réponse que j'obtiens. "Quelle est la plus importante 
+  qualité que vous devez témoigner aux enfants?". "Nous devons les aimer". Au 
+  cours de leur voyage vers les villages et refuges cachés de Déplacés de l'Intérieur, 
+  ils vont tâcher d'aller à la rencontre à la fois de leurs besoins physiques 
+  et spirituels.
+<p>Après la fin d'un cours Kaw Bla Sei me dit: "Une fois, j'ai trouvé quatre enfants 
+  de 4 à 10 ans errant sans but aux alentours d'un village. Ils n'avaient aucun 
+  parent. Je les ai aidés à gagner un camp de réfugiés où ils ont été placés en 
+  orphelinat. Tous les quatre vont vraiment bien maintenant."
+<p>Saw Kaw a choisi de répondre à l'appel de Jésus au service des petits enfants, 
+  et je crois qu'il y aura une récompense réelle, toute spéciale pour des gens 
+  commùe lui. En attendant il sera à l'oeuvre à la recherche des enfants dans 
+  le besoin.
+<p>Kit enfant :<br>
+  · petit peigne et miroir<br>
+  · boîte de chewing gums vitaminés enfants<br>
+  · 2 brosses à dents enfant<br>
+  · coupe-ongles<br>
+  · un petit jouet<br>
+  · un dessin ou photo de vous ou de votre groupe<br>
+  · une carte postale de votre ville ou Etat portant un verset biblique
+<p>Kit mère - bébé :<br>
+  · un petit coupe-ongle<br>
+  · tablettes multi-vitamines pour maman<br>
+  · vitamines enfants (ne nécessitant pas réfrigération)<br>
+  · 2 sets pour bébé comprenant bonnet, moufles, une chemisette (sans onesic ?)<br>
+  · un anneau de dentition<br>
+  · un dessin ou photo de vous ou de votre groupe<br>
+  · carte postale de votre ville ou Etat portant un verset biblique.<br>
+  Merci de l’aide que vous nous apportez en expédiant ces kits à notre adresse. 
+  Pour le moment il n’est toujours pas possible de nous expédier des cargaisons 
+  de fournitures caritatives volumineuses. Prière d’envoyer des colis de dimension 
+  standard pour envois ménagers / cadeaux portant pour indication du contenu « 
+  produits ménagers, effets personnels » respectant les formes douanières. Envoyez 
+  des colis aériens standard (USA : pas plus de 79 pouces)
+      <h2><br>
+      </h2>
+      <h2>Sujets de prière </h2>
+      <p>"Vraiment, je vous l'assure: celui qui croit en moi accomplira lui-même les 
+  oeuvres que je fais. Il en fera même de plus grandes parce que je vais auprès 
+  du Père. Et quoi que ce soit que vous demandiez en mon nom je le réaliserai 
+  pour que la gloire du Père soit manifestée par le Fils." Jean 14: 12-13.
+<p>Priez pour
+<p>que Dieu aide les enfants en Birmanie en y établissant la justice et la paix, 
+  et en leur donnant espoir par des perspectives d'avenir. Invoquez la vigilante 
+  protection de Dieu sur les enfants qui sont soldats, orphelins, réfugiés, victimes 
+  de trafic expédiés dans les pays voisins pour y être voués à la prostitution, 
+  ou contraints au service forcé pour le compte du régime militaire.
+<p>que chacun en Birmanie ait l'occasion de recevoir une éducation. Priez pour 
+  que les groupes ethniques puissent maintenir leurs langues vernaculaires et 
+  leurs cultures propres.
+<p>qu'il soit pourvu aux besoins des plus de 2 millions de Déplacés de l'Intérieur 
+  (IDP). Priez que Dieu pousse des gens à fournir l'approvisionnement nécessaire 
+  en financement et en ravitaillement, notamment en alimentation, vêtements, médicaments, 
+  couvertures, fournitures scolaires et sécurité.
+<p>que ceux qui apportent les approvisionnements reçoivent bénédiction, protection 
+  et la puissance de dispenser l'amour de Dieu et l'espérance divine.
+<p>que les familles dispersées puissent être réunies.
+<p>que les coeurs de millions de personnes en Birmanie soient préparés et atteints 
+  par l'évangile de l'amour et de l'espérance. Priez pour que des Bibles, des 
+  recueils de cantiques et de la littérature chrétienne parviennent au peuple.
+<p>que Dieu libère ceux qui en Birmanie sont injustement incarcérés et endurent 
+  l'oppression sur le plan tant physique que spirituel.
+<p>que Dieu change les coeurs des responsables du régime militaire, les détourne 
+  du mal et les incline vers Sa volonté.
+<p>que Dieu soit avec ceux qui subissent la contrainte du travail ou du portage 
+  forcé pour le régime militaire. Priez que la torture, l'affamement et l'humiliation 
+  prennent fin et se voient remplacés par la liberté en Christ.
+<p>qu'il soit pourvu aux besoins des réfugiés. Priez qu'ils bénéficientde provisions 
+  suffisantes tant pour leur être phyusique que pour leur vie spirituelle. Priez 
+  pour eux, qui désirent retourner dans leur pays et ne le peuvent. Priez qu'ils 
+  puissent occuper de manière utile tants leurs mains que leur esprit. Priez qu'ils 
+  aient l'occasion de recevoir une éducation et de réaliser leurs rêves. Priez 
+  qu'ils entendent tous la bonne nouvelle et qu'ils placent leur espoir en Dieu.
+<p>que Dieu soit avec les femmes en Birmanie et les protège du viol et du travail 
+  forcé. Priez que Dieu soit leur réconfort et leur force pour les soins qu'elles 
+  donnent à leurs enfants et à leurs familles.
+<p>que Dieu soit une réalité vivante pour tous nos frères et soeurs en Birmanie 
+  qui souffrent en raison de leur foi.
+<p>que la Thaïlande soit bénie pour permettre aux réfugiés de vivre sur son sol 
+  et que les secours puissent les atteindre.
+<p>PRIEZ POUR LA LIBERTE ET LA PAIX EN BIRMANIE.
+</td></tr></table>
+<p> <!--</td></tr></table></div>--> 
+</body>
+</html>
+<?
+
+include_once("$_SERVER[DOCUMENT_ROOT]/_include/cf.php"); 
+
+?> 

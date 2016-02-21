@@ -1,0 +1,49 @@
+HowTo build a Todos website
+
+mkdir www
+cd www
+mkdir IDX
+mkdir _lib
+mkdir _include
+mkdir _admin
+mkdir images
+touch IDX/start
+touch _lib/start
+touch _include/start
+touch _admin/start
+touch images/start
+cvs import Netazoic/www Netazoic start
+cd ..
+mv www www.bak
+cvs checkout -d www Netazoic/www
+rm -rf www.bak
+cd www
+cvs checkout -d _todos3 Netazoic/lib/Todos3
+cp -R _todos3/_include/ .
+rm -rf _include/CVS
+cd _lib
+cvs checkout -d lib_login Netazoic/lib/lib_login
+cp _todos3/todos.php index.php
+cd _include
+mv todosConfig.eo todosConfig.php
+mv login.conf.eo login.conf.php
+mysql 
+## Now, edit the login.conf.php and todosConfig.php
+cp menus_cool.eo menus_<site>.js
+## edit menus
+
+## MySQL
+## Run on DB machine
+mysqladmin -p create database <db_name>
+mysql -p
+GRANT ALL on <db_name>.* to <sql_usr>@localhost IDENIFIED BY <sql_pass>;
+GRANT ALL on <db_name>.* to <sql_usr>@<app_machine> [IDENTIFIED BY <sql_pass>];
+exit
+msyqladmin reload -p
+mysql -u <sql_usr> -p <sql_pass> <db_name>  ## test
+
+### On App machine
+cd <site_root>/_todos3/_admin/_sql
+## load the canonical todos data
+mysql -u <sql_usr> -p <sql_pass> -h <sql_host> <db_name> < todos_canonical.sql
+

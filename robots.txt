@@ -1,0 +1,46 @@
+# /robots.txt for freeburmarangers.org
+
+# The following Unabashadly ripped off from sun.com
+
+#--------------------------------------------------------------------------
+# A NOTE TO THOSE WHO'D BOTHER TO LOOK AT THIS FILE:
+#
+#
+# The purpose of the "robots.txt" file is to keep these directories
+# from being indexed so that the average user doesn't stumble across them
+# while performing searches, and those that should be accessing these
+# directories will do so through the URL that requires them to register.
+# Of course, having the contents of this file advertised in "comp.risks"
+# diminishes its purpose.  Thanks Bertrand. ;-)
+#
+#--------------------------------------------------------------------------
+#
+
+
+User-agent: *
+
+Disallow:/_admin/
+Disallow: /_cgi/
+Disallow: /_include/
+Disallow: /_lib/
+Disallow: /_todos3/
+Disallow: /_stats/
+Disallow: /_templates/
+Disallow: /menu/
+Disallow: /wiki/
+Disallow: /CVS/
+Disallow: /IDX/Images/FotJC/
+Disallow: /FotJC/
+Disallow: *FotJC/
+
+
+
+
+# Old Files
+Disallow: /IDX/News/
+Disallow: /*/_archive/
+Disallow: *_archive/
+
+# We don't want to inspire any bogus cross-linking
+Disallow: /Resources/Links/
+

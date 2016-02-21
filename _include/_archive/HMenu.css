@@ -1,0 +1,28 @@
+.menu {
+	BACKGROUND-COLOR: menu; BORDER-BOTTOM: buttonhighlight 2px outset; 
+BORDER-LEFT: buttonhighlight 2px outset; BORDER-RIGHT: buttonhighlight 2px 
+outset; BORDER-TOP: buttonhighlight 2px outset; COLOR: menutext; 
+CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 
+140%; POSITION: absolute; VISIBILITY: hidden
+}
+.visibleMenu {
+	BACKGROUND-COLOR: menu; BORDER-BOTTOM: buttonhighlight 2px outset; 
+BORDER-LEFT: buttonhighlight 2px outset; BORDER-RIGHT: buttonhighlight 2px 
+outset; BORDER-TOP: buttonhighlight 2px outset; COLOR: menutext; 
+CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 
+140%; POSITION: absolute; VISIBILITY: visible
+}
+.menuItem {
+	BACKGROUND-COLOR: menu; COLOR: menutext; PADDING-LEFT: 1px; 
+PADDING-RIGHT: 1px; TEXT-DECORATION: none
+}
+.menuItem A {
+	BACKGROUND-COLOR: menu; COLOR: menutext; CURSOR: default; 
+PADDING-LEFT: 1px; PADDING-RIGHT: 1px; TEXT-DECORATION: none
+}
+.more {
+	FONT-FAMILY: WebDings; POSITION: absolute; TEXT-ALIGN: right
+}
+.menuContainer {
+	VISIBILITY: hidden
+}

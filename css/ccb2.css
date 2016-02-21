@@ -1,0 +1,372 @@
+/* Christians Concerned for Burma CSS Document */
+/* jm, 10.07 */
+
+
+#Page {
+width: 777px;
+margin: auto auto auto 27px;
+/*text-align: center; */ /*ie centering fix */
+}
+#Header {
+width: 777px;
+margin: auto auto auto 27px;
+/*text-align: center; */ /*ie centering fix */
+}
+#Footer {
+width: 777px;
+margin: auto auto auto 27px;
+/*text-align: center; */ /*ie centering fix */
+}
+
+body { 
+	padding:0px;
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:62.5%;
+	text-align:center;
+	margin:0;
+}
+/*
+font-size:62.5%; takes 16px default size down to 10px, which apart from being less huge is a nice round number. From now on its easy to think in pixels but still set sizes in terms of ems: 1em is 10px, 0.8em is 8px, 1.6em is 16px, etc.
+*/
+
+.mainhomepagecell {
+padding-left:17px;
+padding-right:17px;
+border-left: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+text-align:left;
+font-size:1.4em;
+}
+.mainbodycell {
+padding-left:17px;
+padding-right:17px;
+border-left: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+text-align:left;
+font-size:1.2em;
+}
+.mainbodycell .mainbodycell {
+/* don't double sidewall on nested divs */
+border-left: 0px solid #cccccc;
+border-right: 0px solid #cccccc;
+padding-left:0px;
+padding-right:0px;
+
+}
+.mainbodycell table {font-size:1.2em;}
+.mainbodycell td {font-size:1.0em;}
+
+.footer {
+color:#999999;
+border-top:1px solid #999999;
+height:19px;
+background-color:#f2f2f2;
+padding-left:17px;
+padding-right:17px;
+border-bottom:1px dashed #999999;
+}
+
+.greytext {color:#666666;font-weight:bold;}
+.smalltext{font-size:0.9em;}
+
+hr {  color: #CCCCCC; line-height: 1pt; border-style: dashed}
+
+a {color:#242B68; text-decoration:none;}
+a:hover {color:#3D4354;text-decoration:underline;}
+a:visited {color:#242B68;}
+
+th a  {color:#242B68;font-weight:bold;text-decoration:none;}
+th a:hover  {color:#3D4354;}
+th a:visited {color:#242B68;}
+
+li a        {color:#242B68;font-weight:bold;text-decoration:none;}
+li a:hover  {color:#3D4354;font-weight:bold;text-decoration:underline;}
+li a:visited {color:#242B68;}
+
+a.reslink {color:#242B68; font-weight:bold;text-decoration:none;}
+a.reslink:hover {color:#3D4354; font-weight:bold;text-decoration:underline;}
+a.reslink:visited {color:#242B68; font-weight:bold;}
+
+a.footerlink {color:#cccccc; font-weight:bold;text-decoration:none;}
+a.footerlink:hover {color:#3D4354; font-weight:bold;text-decoration:underline;}
+a.footerlink:visited {color:#cccccc; font-weight:bold;}
+
+a.tablefooterlink {color:#4a601c;text-decoration:none; font-size:0.9em;}
+a.tablefooterlink:hover {color:#3D4354;text-decoration:underline; font-size:0.9em;}
+a.tablefooterlink:visited {color:#4a601c;font-size:0.9em;}
+
+a.breadcrumb {color:#333333;font-weight:bold;text-decoration:none;}
+a.breadcrumb:hover {color:#3D4354;font-weight:bold;text-decoration:underline;}
+a.breadcrumb:visited {color:#333333;font-weight:bold;}
+
+a.emailreport {color:#242B68;text-decoration:none; font-size:0.9em;}
+a.emailreport:hover {color:#3D4354;text-decoration:underline;font-size:0.9em;}
+a.emailreport:visited {color:#242B68;font-size:0.9em;}
+
+a.toparrow {color:#242B68;font-weight:bold;text-decoration:none;}
+a.toparrow:hover {color:#3D4354;font-weight:bold;text-decoration:underline;}
+a.toparrow:visited {color:#242B68;font-weight:bold;}
+
+h1{
+margin-bottom:12px;
+margin-top:24px;
+color:#4c621f; /*dark heading green*/
+font-family: Arial, Helvetica, sans-serif;
+font-size:1.8em;
+font-weight:bold;
+border-bottom:1px dashed #999999;padding-bottom: 0px;
+}
+
+
+h2{
+margin-top:2px;
+margin-bottom:6px;
+color:#4c621f; /*dark heading green*/
+font-family: Arial, Helvetica, sans-serif;
+font-size:1.3em;
+font-weight:bold;
+padding-bottom: 0px;
+}
+
+h3{
+margin-top:4px;
+margin-bottom:4px;
+color:#333333; /* grey */
+font-family: Arial, Helvetica, sans-serif;
+font-size:1.1em;
+font-weight:bold;
+padding-bottom: 0px;
+}
+h4 { margin-top:4px; margin-bottom:4px; color:#666666; font-family: Arial, Helvetica, sans-serif; font-size:1.0em; font-weight:bold; padding-bottom: 0px; }
+
+
+/* Bullet List styles */
+
+ul {list-style-image:url(/images/bullet.gif); margin-top:6px; text-align:left; }
+li {margin-top:6px;}
+.li_margin {margin-top:12px; }
+
+ul ul {list-style-image:none; margin-top:6px; text-align:left; ; list-style-type: circle}
+td ul ul {  list-style-type: circle; list-style-image: none}
+
+td ul {list-style-image:url(/images/bullet.gif); margin-top:0px;margin-bottom:0px; text-align:left;}
+td li {margin-top:0px;margin-bottom:0px;}
+td .li_margin {margin-top:6px; }
+/*
+ul.nobullet {list-style-image:url(/images/blank.gif); margin-top:6px; text-align:left; position:relative;
+left:-20px;}
+*/
+
+/*image and alignment classes*/
+img.imageleftalign {float:left; border:1px solid #000000; margin-right:10px; margin-bottom:10px;}
+img.imagerightalign  {float:right; border:1px solid #000000; margin-left:10px;margin-bottom:10px;}
+.gallerycaption {
+border:1px dotted #999999;
+padding:10px;
+background-color:#f0f3e9;
+vertical-align:top;
+text-align:center;
+}
+.galleryimage img {border:1px solid #000000;}
+.tableright img {border:1px solid #000000; margin-top:10px}
+.tableleft img {border:1px solid #000000; margin-top:10px}
+
+.centrephotos img {border:1px solid #000000;}
+.caption {padding:5px;color:#666666;font-size:0.9em;text-align:left; }
+.photocaption {padding:5px;color:#666666;font-size:0.9em;text-align:left; }
+.phototable {width:20px;margin:14px;}
+
+
+/*   Alpha Order */
+
+.BGsearch {
+border-right: 1px solid #4a601c;
+padding-right:4px;
+color: #ffffff;
+font-weight:bold;
+font-size:11px;
+width:495px;
+height:26px;
+text-align:right;
+vertical-align:middle;
+background-image:url(/images/form_bg.jpg);
+background-repeat:no-repeat;
+}
+
+
+.breadcrumb {
+/*padding-bottom: 4px;
+margin-bottom: 0px;*/
+text-align: left;
+color: #333333;
+font-weight:bold;
+}
+
+
+
+
+.divdashedline {
+width:100%;
+height:1px;
+padding:0;
+margin-top:5px;
+margin-bottom:0px;
+background-image:url(/images/dashed_line.gif);
+background-repeat:y;
+}
+
+
+
+.donationsubmit{
+margin-left:5px;
+border:1px solid #4a601c;
+width:147px;
+height:20px;
+}
+
+.emailtable {
+border:1px dotted #b7c494;
+}
+
+.emailinput {
+border:1px solid #6a865e;
+width:100px;
+height:14px;
+font-size:0.9em;
+}
+
+.emailsubmit{
+margin-left:5px;
+border:1px solid #4a601c;
+width:47px;
+height:20px;
+}
+
+
+
+.introtable {
+width:65%;
+padding: 0;
+float:left;
+}
+
+.introtable h2 {
+margin-top:0px;
+}
+
+.notesbox {
+vertical-align:top;
+width:100%;
+background-color:#f0f3e9;
+border:1px solid #999999;
+padding:6px;
+}
+.notesbox h2 {margin-top:0;}
+
+.reportsearchinput {
+border:1px solid #6a865e;
+width:200px;
+height:14px;
+font-size:0.9em;
+}
+
+.reportstable{
+text-align:left; 
+border: solid 1px #999999;
+width: 100%;
+}
+.resourcestable {
+width: 100%;
+border:solid 1px #999999; 
+margin-bottom:10px;
+}
+
+.resourcestable img{border:1px solid #000000;}
+
+.restableheading {
+padding-left: 8px;
+background-color:#b7c494; 
+font-weight:bold; 
+border-bottom: solid 1px #999999; 
+}
+.restablerow {
+padding-left: 8px;
+padding-top: 8px;
+vertical-align: top; 
+height: 18px; 
+background-color: #f0f3e9; 
+}
+
+.searchform {
+ font-size:10px;
+ width:110px; 
+ height:15px;
+ border:1px solid #6a865e;
+ }
+ 
+.searchsubmit {
+  background-color:#b7c494;
+ width:20px;
+ height:19px;
+ }
+
+
+.sectiontable {
+width:95%;
+padding: 0;
+}
+
+.sectiontable h2 {
+margin-top:0px;
+}
+
+
+.tableheader{
+background-color: #b7c494;
+height: 20px;
+font-weight:bold; 
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+border-bottom:solid 1px #999999;
+}
+
+.tablerow1{
+background-color: #f0f3e9;
+height: 20px;
+/*font-weight:bold; */
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+}
+.tablerow{
+background-color: #f0f3e9;
+height: 20px;
+/*font-weight:bold; */
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+
+
+.tablefooter {
+font-size: 0.9em;
+border-top: solid 1px #999999;
+height: 20px; 
+background-color: #d0d9b9;
+text-align:right;
+padding-left:8px;
+padding-right:8px;
+padding-top:2px;
+padding-bottom:2px;
+}
+
+table.tableleft {float:left; margin-right:10px; margin-bottom:10px; width:20px;}
+table.tableright {float:right; margin-left:10px; margin-bottom:10px; width:20px;}
+
+/************** end of file ******************/

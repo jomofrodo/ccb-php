@@ -1,0 +1,32 @@
+#!/bin/sh
+
+## To get the diff between the dev server and the production server 
+
+echo "Moving the updates file to the archive"
+cat sql_update.sql >> sql_archive.sql
+
+echo " Moving sql_DB.sql to backup"
+mv sql_DB.sql sql_DB.1.sql
+
+echo "Getting latest version of sql_DB from CVS"
+cvs update sql_DB.sql
+
+echo "Dumping the current state of the production DB"
+./dumpProd
+## creates the file sql_DB_prod.sql
+
+echo "Diffing Prod and Dev DB"
+diff sql_DB.sql sql_DB_prod.sql | grep -v 'tt_' > diff.sql
+
+echo "Converting Diff file to an SQL updates file"
+./fdiff diff.sql
+# Creates the file sql_updates.sql
+cat diff.sql | sort > sql_updates.sql
+
+echo "updates file moved to sql_updates.sql"
+
+echo "To load the updates, run 'loadUpdates'"
+#  Load the converted diff file into the DB
+#  This is still going to have problems picking up changes to the schema 
+# ./loadUpdates 
+

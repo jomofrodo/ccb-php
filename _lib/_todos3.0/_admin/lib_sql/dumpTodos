@@ -1,0 +1,21 @@
+#!/bin/sh
+
+## $0 [$rls]
+## To load this back into mysql, use "source <name_of_file>"
+## or command line like mysql todosCCB -f < todosCCB.sql
+##
+##	Specify the CVS rls number of a sql_DB.sql file to dump and diff versus
+##	a different snapshot than the most recent
+
+cat sql_updates.sql >> sql_archive.sql
+mv sql_DB.sql sql_DB.1.sql
+
+mysqldump todosCCB > sql_DB.sql
+diff sql_DB.sql sql_DB.1.sql | grep -v 'tt_' > diff.sql
+#cvs diff -r $1 sql_DB.sql | grep -v 'tt_' > diff.sql
+cat diff.sql | grep '<' > sql_updates.sql
+## need to sed this file to remove '< ' line starts
+## Also need to deal with fact that these INSERTS are actually also UPDATES
+
+#cvs commit -m 'Data updates' -f sql_DB.sql diff.sql sql_archive.sql sql_updates.sql
+#ssh -l prayforb www.prayforburma.org 'source .bashrc; cd www/_admin/sql; cvs update'

@@ -1,0 +1,73 @@
+<? //session_cache_limiter('private'); ?>
+<?  include_once($_SERVER['DOCUMENT_ROOT']."_lib/Todos/todosInclude.php"); ?>
+<?  if (SITE_HDR) include_once ($_SERVER['DOCUMENT_ROOT'] . SITE_HDR); ?>
+
+<? if(0) var_dump($_SERVER); ?>
+
+</head>
+
+<body topmargin=0 marginheight=0>
+<form name=frmTodosViewer method=post enctype="multipart/form-data">
+  <input type=hidden name="pAction" value='<?=$pAction?>'>
+  <input type=hidden name="pMode" value="<?=$pMode;?>">
+  <input type=hidden name="flgMode">
+  <input type=hidden name="pForm" value="recProperties">
+  <input type=hidden name="rec_pid" value='<? echo $rec_pid?>'>
+  <input type=hidden name="rspage" value=1> 
+  <input type=hidden name="srch_terms" value="<?=$srch_terms;?>"> 
+  <table border=0>
+<!--
+      <tr>	
+	<th width=150>Todos 
+		<?
+/*
+	   ## On/Off box
+
+##		print ("<INPUT type=checkbox name=flgTodos \n");
+##		if($flgTodos) print("checked ");
+##		print (" value=1 onclick=\"this.form.submit()\" >");
+ ##    if($flgTodos){ 
+  	$edit_url = TODOS_ROOT . "rec_edit.php";  
+    	$edit_url .= "?rec_pid=$rec_pid&bass_class=$td_class&td_type=idx3&pMode=EDIT";
+
+	print("<th colspan=3 align=left>\n");
+	     foreach($MODES as $m=>$title){
+		if(! $flgButtons){
+		print ("<input type=submit name='$m' value='$title' \n");
+		print ("	onclick=\"this.form.pMode.value=this.name;\n");
+	 	print ("		this.form.flgMode.value=1;\"\n");
+	 	if($pMode == $m) print("disabled=\"true\" \n");
+	   	print (">\n");
+		}
+		else{
+	    //Buttons
+		$src = $BUTTONS[$m];
+	 	if($pMode == $m) $src= $BUTTONS_ACTIVE[$m];
+		print ("<input type=\"image\" src=\"$src\" value='$m' \n");
+		print ("	onclick=\"this.form.pMode.value=this.value;\n");
+	 	print ("		this.form.flgMode.value=1;\"\n");
+	   	print (">\n");
+		}
+	     }
+  ##   }
+
+*/
+	?>
+
+</table>
+-->
+<!--  ################################################################ -->
+  <table border=0 width=100% height=500 valign=top>
+      
+    <tr width=100% height=100% valign=top>
+	<td colspan=7 align=center width=100% height=100% valign=top>
+	<iframe name=recframe src="<?=$rec_pid?>">
+
+	
+	</td>
+    </tr>
+
+  </table>
+<!-- ###########################################################################  -->
+</form>
+<? if (SITE_FTR) include_once ($_SERVER['DOCUMENT_ROOT'] . SITE_FTR); ?>

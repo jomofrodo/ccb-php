@@ -1,0 +1,178 @@
+/* Christians Concerned for Burma CSS Document  */
+/* Additional styles				*/
+/* jm, 10.07 					*/
+
+
+
+/*   Alpha Order */
+
+.BGsearch {
+border-right: 1px solid #4a601c;
+padding-right:4px;
+color: #ffffff;
+font-weight:bold;
+font-size:11px;
+width:495px;
+height:26px;
+text-align:right;
+vertical-align:middle;
+background-image:url(/images/form_bg.jpg);
+background-repeat:no-repeat;
+}
+
+
+
+
+.donationsubmit{
+margin-left:5px;
+border:1px solid #4a601c;
+width:147px;
+height:20px;
+}
+
+.emailtable {
+border:1px dotted #b7c494;
+}
+
+.emailinput {
+border:1px solid #6a865e;
+width:100px;
+height:14px;
+font-size:0.9em;
+}
+
+.emailsubmit{
+margin-left:5px;
+border:1px solid #4a601c;
+width:47px;
+height:20px;
+}
+
+
+
+.introtable {
+width:65%;
+padding: 0;
+float:left;
+}
+
+.introtable h2 {
+margin-top:0px;
+}
+
+.notesbox {
+vertical-align:top;
+width:100%;
+background-color:#f0f3e9;
+border:1px solid #999999;
+padding:6px;
+font-size:1.2em;
+}
+.notesbox h2 {margin-top:0;}
+
+.reportsearchinput {
+border:1px solid #6a865e;
+width:200px;
+height:14px;
+font-size:0.9em;
+}
+
+.reportstable{
+text-align:left; 
+border: solid 1px #999999;
+width: 100%;
+}
+.resourcestable {
+width: 100%;
+border:solid 1px #999999; 
+margin-bottom:10px;
+}
+
+.resourcestable img{border:1px solid #000000;}
+
+.restableheading {
+padding-left: 8px;
+background-color:#b7c494; 
+font-weight:bold; 
+border-bottom: solid 1px #999999; 
+}
+.restablerow {
+padding-left: 8px;
+padding-top: 8px;
+vertical-align: top; 
+height: 18px; 
+background-color: #f0f3e9; 
+}
+
+.searchform {
+ font-size:10px;
+ width:110px; 
+ height:15px;
+ border:1px solid #6a865e;
+ }
+ 
+.searchsubmit {
+  background-color:#b7c494;
+ width:25px;
+ height:19px;
+ }
+
+
+.sectiontable {
+width:95%;
+padding: 0;
+}
+
+.sectiontable h2 {
+margin-top:0px;
+}
+
+
+.tableheader{
+background-color: #b7c494;
+height: 20px;
+font-weight:bold; 
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+border-bottom:solid 1px #999999;
+}
+
+.tablerow1{
+background-color: #f0f3e9;
+height: 20px;
+/*font-weight:bold; */
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+}
+.tablerow{
+background-color: #f0f3e9;
+height: 20px;
+/*font-weight:bold; */
+padding-left: 8px; 
+padding-right:8px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+
+
+.tablefooter {
+font-size: 0.9em;
+border-top: solid 1px #999999;
+height: 20px; 
+background-color: #d0d9b9;
+text-align:right;
+padding-left:8px;
+padding-right:8px;
+padding-top:2px;
+padding-bottom:2px;
+}
+
+table.tableleft {float:left; margin-right:10px; margin-bottom:10px; width:20px;}
+table.tableright {float:right; margin-left:10px; margin-bottom:10px; width:20px;}
+
+/************** end of file ******************/

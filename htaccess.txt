@@ -1,0 +1,60 @@
+    #
+    # To use server-parsed HTML files
+    #
+    AddType text/html .shtml  .shtm 
+    AddHandler server-parsed .shtml
+### Automatic URL rewriting
+RewriteEngine on
+### Specific moved documents
+RewriteRule ^.*dop_2001\/?(.*)$			/Day_of_Prayer/2001/$1 [R,L]
+RewriteRule ^(.*)contact_information\.php	/Contact_Us/contact_information.html	[R,L]
+### For mapping directory indexes not specified
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}                 !-s
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.htm        !-s
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.html       !-s
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.php        !-s
+RewriteCond $1              !^.*Resources/Photos/[A-Z].*$
+RewriteCond $1              !^.*Email.*$
+RewriteCond $1                          !_stats
+RewriteRule ^(.*)\/$                   /cat_viewer.php   [L]
+### For mapping htm to html if not found
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}        !-s
+RewriteRule ^(.*)\.htm$                   $1.html   [L]
+### For mapping shtml to html if not found
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}        !-s
+RewriteRule ^(.*)\.shtml$                   $1.html   [L]
+### For mapping php to html if not found
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}        !-s
+RewriteRule ^(.*)\.php$                   $1.html   [L]
+#RewriteRule ^(.*)\/dop_2001(.*)$		  $1/Day_of_Prayer/2001$2 [R,L]
+
+## Automatic NDX URL rewriting
+RewriteEngine on
+#RewriteCond	$1		 	^.*\.(htm[l]?|php)$  
+### HTML file that does exist on the server
+RewriteCond	$1		 	^.*\.(htm[l]?)$  
+RewriteCond     %{DOCUMENT_ROOT}%{REQUEST_URI}        -s
+RewriteCond     %{HTTP_USER_AGENT}      !^.*Lynx
+RewriteCond     %{REMOTE_ADDR}          !%{SERVER_ADDR}
+RewriteCond     %{REQUEST_URI}          !%{HTTP_REFERER}
+RewriteCond     $1                      !^.*ch\.php.*$
+RewriteCond     $1                      !^.*cf\.php.*$
+RewriteCond     $1                      !^.*ndx\.php.*$
+RewriteCond     $1                      !^.*hdx\.php.*$
+RewriteCond     $1                      !^.*(_todos|_lib).*$
+RewriteRule ^(.*)$                      /ndx.php?pid=%{REQUEST_URI}                     [L]
+#RewriteRule ^(.*)$                     /ndx.php?pid=%{REQUEST_URI}&ref=%{HTTP_REFERER} [R,L]
+
+## Error Documents
+    # 404 - Not found
+    ErrorDocument 404 /cgi-bin/missing_handler.pl
+    #ErrorDocument 404 /_lib/shtm/error.shtml
+    # 403 - Forbidden
+    ErrorDocument 403 /cgi-bin/missing_handler.pl
+    #ErrorDocument 403 /_lib/shtm/error.shtml
+    # 500 -- Server Error
+    #ErrorDocument 500 /cgi-bin/missing_handler.pl
+    ErrorDocument 500 /_lib/shtm/error.shtml
+    # 400 -- Bad request
+    ErrorDocument 400 /cgi-bin/missing_handler.pl
+    #ErrorDocument 400 /_lib/shtm/error.shtml

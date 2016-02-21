@@ -1,0 +1,126 @@
+<STYLE TYPE-"type/css">
+
+
+P {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style : normal;
+}
+
+BODY {
+	margin-left: 10 px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style : normal;
+	/*background : url(images/border3.jpg) repeat-y;*/
+}
+
+table,td,tr {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style : normal;
+	margin-left : 1%;
+}
+
+H1 {
+	color : Navy;
+	font-weight: bold;
+	font-size : 19pt;
+	font-family : Arial;
+	
+}
+
+H2 {
+	color : Navy;
+	font-weight: bold;
+	font-size : 16pt;
+	font-family : Arial;
+	
+}
+
+
+H3 {
+	color : Navy;
+	font-weight: bold;
+	font-size : 14pt;
+	font-family : Arial
+}
+
+H4 {
+	color : Navy;
+	font-weight: none;
+	font-size : 11pt;
+	font-family : Arial
+}
+
+A:link {
+	color: Blue;
+
+}
+
+A:visited {
+	color: Purple;
+	
+}
+
+A:Hover {
+	color:teal;
+	
+}
+
+.title {
+	color : Navy;
+	font-weight: bold;
+	font-size : 20pt;
+	font-family : Times New Roman;
+}
+
+.quote {
+	color : black;
+	font-variant: normal;
+	font-size : 12pt;
+	font-family : Times New Roman;
+	font-style : oblique;
+}
+	
+
+.callout {
+	color : Navy;
+	font-weight: ;
+	font-size : 18pt;
+	font-family : Times New Roman;
+}
+
+.back {
+	color : Navy;
+	font-weight: Bold;
+	font-size : 9pt;
+	font-family : Times New Roman;
+	font-variant : small-caps;
+	text-align : right;
+	
+}
+	
+
+.new {
+	color : Red;
+	font-weight: ;
+	font-size : 10pt;
+	font-family : Times New Roman;
+	font-variant : small-caps;
+}
+.caption{
+	color : Green;
+	font-weight: ;
+	font-size : 8pt;
+	font-family : arial;
+	text-align : right;
+}
+
+.captionleft{
+	color : Green;
+	font-weight: ;
+	font-size : 8pt;
+	font-family : arial;
+	text-align : left;
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/perl -d -w
+
+## To load this back into mysql, use "source <name_of_file>"
+## or command line like mysql todosCCB -f < todosCCB.sql
+
+package TODOS::tdMain;
+use sqlConf qw(:all);
+
+$outfile = 'sql_DB.sql';
+
+system "mv $outfile $outfile.1";
+system "echo 'SET FOREIGN_KEY_CHECKS=0;' > $outfile";
+system "mysqldump $dbase_dev >> $outfile";
+
+#cvs commit -m 'Data updates - Dev' -f $outfile
+#cvs commit -m 'Data updates' -f sql_DB.sql diff.sql sql_archive.sql sql_updates.sql

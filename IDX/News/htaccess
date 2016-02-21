@@ -1,0 +1,33 @@
+	order deny,allow
+        allow from all
+	AuthType Basic
+        AuthName "CCB -- Internal access only"
+        AuthUserFile /usr/local/apache/htpasswords
+        AuthGroupFile /usr/local/apache/htgroups
+	Allow from claresco.com
+	Allow from 10.0.0.0/16
+	Allow from 10.0.0.99/32
+	Allow from 10.0.0.0/255.255.0.0
+	Allow from 10.0.1.0/255.255.0.0
+	Allow from 10.0.0.0/255.255.255.0
+	Allow from 10.0.1.0/255.255.255.0
+	require group www
+	Satisfy any
+
+### Automatic URL rewriting
+RewriteEngine on
+#RewriteBase	/www/servsers/ccb/www/
+#RewriteCond $1		-s
+#RewriteCond	$1		 	^.*\.(htm[l]?|php)$  
+RewriteCond	$1		 	^.*\.(htm[l]?)$  
+RewriteCond	%{HTTP_USER_AGENT} 	!^.*Lynx 
+RewriteCond	%{REMOTE_ADDR} 		!%{SERVER_ADDR}
+RewriteCond	%{REQUEST_URI} 		!%{HTTP_REFERER}
+RewriteCond	$1 			!^.*ch\.php.*$
+RewriteCond	$1 			!^.*cf\.php.*$
+RewriteCond	$1 			!^.*ndx\.php.*$
+RewriteCond	$1 			!^.*hdx\.php.*$
+RewriteCond	$1 			!^.*(_todos|_lib).*$
+RewriteRule ^(.*)$			/ndx.php?pid=%{REQUEST_URI}			[R,L]
+#RewriteRule ^(.*)$			/ndx.php?pid=%{REQUEST_URI}&ref=%{HTTP_REFERER}	[R,L]
+

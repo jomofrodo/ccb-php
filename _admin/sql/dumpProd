@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mysqldump  -poda-181 prayforb > sql_DB_prod.sql
+#cvs commit -m 'Data updates' -f sql_DB_prod.sql

@@ -1,0 +1,9 @@
+CVS
+CVS/*
+_stats
+.buildpath
+.project
+.settings/
+_include/todosConfig.php
+IDX/Prayer/Day_of_Prayer/2009/Photos/Originals/
+.htaccess

@@ -1,0 +1,11 @@
+#!/usr/local/bin/perl -d -w
+
+package TODOS::tdMain;
+use sqlConf qw(:all);
+#$passwd = 'xxx';
+#$login  = 'yhyy';
+#$dbase  = 'zzz';
+
+$ret = system("mysqldump  -p$passwd $dbase_prod > sql_DB_prod.sql");
+
+#cvs commit -m 'Data updates' -f sql_DB_prod.sql

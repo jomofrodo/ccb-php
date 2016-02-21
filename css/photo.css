@@ -1,0 +1,32 @@
+@CHARSET "utf-8";
+
+.photoDiv{
+	float:left;
+	height:20px;
+	background-color:white;
+
+	}
+.photoDiv div{
+	width:100%;
+	background-image:url(/image/dropshadow.gif);
+	border:solid 1px black;
+	text-align:center;
+	padding:10px;
+}
+	
+.photoDiv img{
+	width:100%;
+}
+.photoDiv p{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:-5px;
+	padding:5px;
+	color:#666666;
+	font-size:0.9em;
+	text-align:left;
+}
+
+.photocaption {padding:5px;color:#666666;font-size:0.9em;text-align:left; }
+.phototable {width:20px;margin:14px;}
