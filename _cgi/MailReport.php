@@ -1,5 +1,6 @@
 <?php include_once($_SERVER[DOCUMENT_ROOT] . "/_include/ch.php"); ?>
 <?php //"Adding"phpmailer"to"support"embedded"images
+include_once('./pearMail.php');
 include_once('./emailLib.php'); ?>
 <? // MailReport.php 
  /*     jomo 5.07
@@ -324,8 +325,8 @@ $headers .=
 . "X-Mailer: PHP\n";
 
 if(0) print("UTF8-mail: to: $to,<br> subject: $subject,<br> headers: $headers <br>");
-//return mail($to, $subject, $message, $headers);
-return sendPearEmail($from,$to,$subject,$message,$headers);
+return mail($to, $subject, $message, $headers);
+//return sendPearEmail($from,$to,$subject,$message,$headers);
 
 }
 ?>
