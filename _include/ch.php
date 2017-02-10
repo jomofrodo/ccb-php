@@ -10,6 +10,7 @@
 <meta name="description" content="Christians Concerned for Burma (CCB) is a multi-ethnic humanitarian service movement. They bring help, hope and love to people in the war zones of Burma. Ethnic pro-democracy groups send teams to be trained, supplied and sent into the areas under attack to provide emergency assistance and human rights documentation. Together with other groups, the teams work to serve people in need. The teams are to avoid contact with the Burma Army but cannot run if the people cannot run." />
 <meta name="keywords" content="Christians Concerned for Burma, CCB, Karen, Karen State, Karenni, Shan, Lahu, Arakan areas of Burma, Myanmar, Human Rights" />
 <script type="text/javascript" language="JavaScript1.2" src="/menus/stmenu.js"></script>
+
 <?php ### get a random picture
 
 	$imgdir = '/Images/';
