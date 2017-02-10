@@ -5,9 +5,10 @@ stm_aix("p0i1","p0i0",[0,"","","",-1,-1,0,"","_self","","","","",0,0,0,"","",0,0
 stm_aix("p0i2","p0i1",[0,"Home","","",-1,-1,0,"/","_self","","","","",5,0,0,"","",0,0,0,1,0],0,20);
 stm_aix("p0i3","p0i1",[0,"Prayer","","",-1,-1,0,"/IDX/Prayer/","_self","","","","",0,0,0,"arrow_r.gif","arrow_rb.gif",7,7],0,20);
 stm_bpx("p1","p0",[1,4,0,0,1,3,5,7,100,"",-2,"",-2,100,2,3,"#999999","#000000","",3]);
-stm_aix("p1i0","p0i1",[0,"Day of Prayer 2016","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2016/DayOfPrayerForBurma2016.pdf","_self","","","","",5,0,0,"","",0,0,0,0,0,"#AECC74"]);
+stm_aix("p1i0","p0i1",[0,"Day of Prayer 2017","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf","_self","","","","",5,0,0,"","",0,0,0,0,0,"#AECC74"]);
 stm_aix("p1i1","p1i0",[0,"Past Days of Prayer","","",-1,-1,0,"#","_self","","","","",0,0,0,"arrow_r.gif","arrow_rb.gif",7,7]);
 stm_bpx("p2","p1",[1,2,0,0,1,3,0,0]);
+stm_aix("p2i0","p1i0",[0,"2016","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2016/2016%20Day%20of%20Prayer_Online.pdf"]);
 stm_aix("p2i0","p1i0",[0,"2015","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2015/2015%20Day%20of%20Prayer_Online.pdf"]);
 stm_aix("p2i0","p1i0",[0,"2014","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2014/Day of Prayer 2014 Final.pdf"]);
 stm_aix("p2i0","p1i0",[0,"2013","","",-1,-1,0,"/IDX/Prayer/Day_of_Prayer/2013"]);

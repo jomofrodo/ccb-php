@@ -38,7 +38,7 @@ $img_source = getSource($img_pid,$err);
 
   <div id="Layer3" style="position:absolute; width:200px; height:580px; z-index:3; left: 20px; top: 125px">
   <div id="dop_main">
-  	<a href="/IDX/Prayer/Day_of_Prayer/2016/DayOfPrayerForBurma2016.pdf" border="0"><img style="width:400px;" src="/IDX/Prayer/Day_of_Prayer/2016/images/Cover2016.jpg"/></a>
+  	<a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf" border="0"><img style="width:400px;" src="/IDX/Prayer/Day_of_Prayer/2017/images/Cover2017DOP.jpg"/></a>
   
   </div> 
 
@@ -61,15 +61,15 @@ $img_source = getSource($img_pid,$err);
                            <tr> 
                           <td height="2" colspan="2" width="301px"> 
                             
-                              <a href="/IDX/Prayer/Day_of_Prayer/2016/DayOfPrayerForBurma2016.pdf"> 
-                                <span style="color:#FF0000;">Global Day of Prayer for Burma, 13 March, 2016</span></a></li>
+                              <a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf"> 
+                                <span style="color:#FF0000;">Global Day of Prayer for Burma, 12 March, 2017</span></a></li>
                             </ul>
                             <table width="100%" >
                                <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> <span class="headline_description">-- 
                                   English </span><span class="news_date"> 
-                                  (<a href="/IDX/Prayer/Day_of_Prayer/2016/DayOfPrayerForBurma2016.pdf"><img src="/images/pdficonsmall.gif" border=0 width="22" height="24"></a> 
-                                  <a href="/IDX/Prayer/Day_of_Prayer/2016/DayOfPrayerForBurma2016.pdf">1.1 
+                                  (<a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf"><img src="/images/pdficonsmall.gif" border=0 width="22" height="24"></a> 
+                                  <a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf">1.1 
                                   Mb</a>) </span> 
                                   
   
@@ -287,7 +287,7 @@ $img_source = getSource($img_pid,$err);
 
     <tr> 
 
-      <td class="footer" style="text-align:left;"><font size="1">&copy; 2016 Christians 
+      <td class="footer" style="text-align:left;"><font size="1">&copy; 2017 Christians 
 
         Concerned for Burma | <a href="mailto:info@prayforburma.org" class="footerlink">Contact 
 
