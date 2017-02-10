@@ -61,7 +61,7 @@ include_once($_SERVER['DOCUMENT_ROOT']."/_todos3/lib_todos.php");
           </tr>
           <tr > 
             <td > 
-              <script type="text/javascript" language="JavaScript1.2" src="/menus/ccb.js"></script>
+              <script type="text/javascript" language="JavaScript1.2" src="/menus/ccb.js?v=2017"></script>
               &nbsp; </td>
             <td valign="top"> 
                 <div  > <img src="/images/shim.gif" width="20" height="5">   <!-- shim to bump the 'go' button down a couple of pixels --></div>
