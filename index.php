@@ -66,13 +66,14 @@ $img_source = getSource($img_pid,$err);
                             </ul>
                             <table width="100%" >
                                <tr bgcolor="#FFFFFF"> 
-                                <td colspan="2"> <span class="headline_description">-- 
-                                  English </span><span class="news_date"> 
-                                  (<a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf"><img src="/images/pdficonsmall.gif" border=0 width="22" height="24"></a> 
-                                  <a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf">1.1 
-                                  Mb</a>) </span> 
-                                  
-  
+                                <td colspan="2"> 
+									  <ul style="list-style: none;">
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPEnglish.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2017 (English)</a> 1.1 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPBurmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2017 nae (Burmese)</a> 35Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPKaren.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2017 (Karen)</a> 25Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPThai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2017(Thai)</a> 1.2Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPDanish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2017 (Danish)</a> 1.1Mb</li>
+									</ul>
                               <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
 
