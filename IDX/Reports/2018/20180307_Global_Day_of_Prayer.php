@@ -13,7 +13,7 @@ murder, rape, and burning of
 villages and displacement of
 over 600,000 Rohingya people,
 the ongoing attacks against the
-Kachin, Ta’ang and northern
+Kachin, Ta'ang and northern
 Shan, the encroachment of the
 Burma military in ceasefire
 areas and the lack of care by the
@@ -102,7 +102,7 @@ spirit of hate and retribution.
 When you suffer injustice, the
 hurt can cause you to hate the
 perpetrator and to equate their
-hurt with justice – but hate will
+hurt with justice -- but hate will
 cripple you if you search for
 justice this way, and justice will
 elude you. Justice can only be
@@ -111,9 +111,9 @@ This means when you are
 wronged you pray for love for
 the perpetrator and you seek
 justice in that love. We need
-God’s help to love those who
+God's help to love those who
 wrong us, to love our enemies
-– but when we pray and ask for
+-- but when we pray and ask for
 this love He helps us. This may
 mean punishment for the person
 who wronged you but it will
@@ -123,7 +123,7 @@ towards reconciliation.
 
 <p>Four, we experienced the
 power of the praying church
-and believe that God’s power
+and believe that God's power
 through prayer is the only way
 to achieve freedom, justice,
 reconciliation and love.
