@@ -38,7 +38,7 @@ $img_source = getSource($img_pid,$err);
 
   <div id="Layer3" style="position:absolute; width:200px; height:580px; z-index:3; left: 20px; top: 125px">
   <div id="dop_main">
-  	<a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf" border="0"><img style="width:400px;" src="/IDX/Prayer/Day_of_Prayer/2017/images/Cover2017DOP.jpg"/></a>
+  	<a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf" border="0"><img style="width:400px;" src="/IDX/Prayer/Day_of_Prayer/2018/images/Cover2018DOP.jpg"/></a>
   
   </div> 
 
@@ -61,18 +61,18 @@ $img_source = getSource($img_pid,$err);
                            <tr> 
                           <td height="2" colspan="2" width="301px"> 
                             
-                              <a href="/IDX/Prayer/Day_of_Prayer/2017/2017DayOfPrayerForBurma.pdf"> 
-                                <span style="color:#FF0000;">Global Day of Prayer for Burma, 12 March, 2017</span></a></li>
+                              <a href="/IDX/Prayer/Day_of_Prayer/2018/2018DayOfPrayerForBurma.pdf"> 
+                                <span style="color:#FF0000;">Global Day of Prayer for Burma, 11 March, 2018</span></a></li>
                             </ul>
                             <table width="100%" >
                                <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
 									  <ul style="list-style: none;">
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPEnglish.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2017 (English)</a> 1.1 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPBurmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2017 nae (Burmese)</a> 35Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPKaren.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2017 (Karen)</a> 25Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPThai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2017(Thai)</a> 1.2Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2017/2017DOPDanish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2017 (Danish)</a> 1.1Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2018 (English)</a> 24 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Burmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2018 nae (Burmese)</a> 46 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Karen.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2018 (Karen)</a> 40 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Thai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2018(Thai)</a> 1 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Danish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2018 (Danish)</a> 24 Mb</li>
 									</ul>
                               <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
@@ -288,7 +288,7 @@ $img_source = getSource($img_pid,$err);
 
     <tr> 
 
-      <td class="footer" style="text-align:left;"><font size="1">&copy; 2017 Christians 
+      <td class="footer" style="text-align:left;"><font size="1">&copy; 2018 Christians 
 
         Concerned for Burma | <a href="mailto:info@prayforburma.org" class="footerlink">Contact 
 
