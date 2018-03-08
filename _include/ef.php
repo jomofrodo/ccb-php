@@ -30,9 +30,8 @@ href="http://www.prayforburma.org/">www.prayforburma.org</a></span></p>
 <table  width="100%">
   <tr> 
       
-      <td class="footer" style="text-align:left;">&copy; 2010 Christians Concerned 
-        for Burma | <a href="mailto:info@prayforburma.org" class="footerlink">Contact 
-        webmaster</a></td>
+      <td class="footer" style="text-align:left;">&copy; 2018 Christians Concerned 
+        for Burma </td>
     </tr>
 </table>
   <p class="smalltext">To unsubscribe from this email list, please respond to this 

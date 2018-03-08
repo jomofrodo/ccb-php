@@ -143,10 +143,10 @@ for all the people of Burma. God
 bless you.
 
 <p>Dave Eubank
-<p>Christians Concerned for Burma
+<br/>Christians Concerned for Burma
 <p>
 
-<a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf">Day of Prayer PDF</a>
+<a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf">Click here to download the Day of Prayer PDF</a>
 
 
 <?php
