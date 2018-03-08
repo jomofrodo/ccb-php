@@ -27,7 +27,7 @@ href="http://www.prayforburma.org/">www.prayforburma.org</a></span></p>
 <table width=100%>
 
     <tr>
-      <td class="footer" style="text-align:left;">&copy; 2010 Christians Concerned 
+      <td class="footer" style="text-align:left;">&copy; 2018 Christians Concerned 
         for Burma </td>
         <td class="footer" style="text-align:right;">
 <!--
