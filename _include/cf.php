@@ -28,8 +28,7 @@ href="http://www.prayforburma.org/">www.prayforburma.org</a></span></p>
 
     <tr>
       <td class="footer" style="text-align:left;">&copy; 2010 Christians Concerned 
-        for Burma | <a href="mailto:info@prayforburma.org" class="footerlink">Contact 
-        webmaster</a></td>
+        for Burma </td>
         <td class="footer" style="text-align:right;">
 <!--
             <a href="http://www.bordermedia.org" class="footerlink" target="_blank">Web design</a> by
