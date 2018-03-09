@@ -29,11 +29,11 @@ title="Day of Prayer for Burma, 2018" /></a>
                                <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
 									  <ul style="list-style: none;">
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2018 (English)</a> 24 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Burmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2018 nae (Burmese)</a> 46 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Karen.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2018 (Karen)</a> 40 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Thai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2018(Thai)</a> 1 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Danish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2018 (Danish)</a> 24 Mb</li>
+									<li><a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP English.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2018 (English)</a> 24 Mb</li>
+									<li><a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Burmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2018 nae (Burmese)</a> 46 Mb</li>
+									<li><a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Karen.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2018 (Karen)</a> 40 Mb</li>
+									<li><a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Thai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2018(Thai)</a> 1 Mb</li>
+									<li><a href="http://www.prayforburma.org/IDX/Prayer/Day_of_Prayer/2018/2018 DOP Danish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2018 (Danish)</a> 24 Mb</li>
 									</ul>
                               <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
