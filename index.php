@@ -61,18 +61,18 @@ $img_source = getSource($img_pid,$err);
                            <tr> 
                           <td height="2" colspan="2" width="301px"> 
                             
-                              <a href="/IDX/Prayer/Day_of_Prayer/2019/2019DayOfPrayerForBurma.pdf"> 
+                              <a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019.pdf"> 
                                 <span style="color:#FF0000;">Global Day of Prayer for Burma, 10 March, 2019</span></a></li>
                             </ul>
                             <table width="100%" >
                                <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
 									  <ul style="list-style: none;">
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/2019-DOP.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2019 (English)</a> 24 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/2019-2019_Burmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2019 nae (Burmese)</a> 46 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/2019-DOP_Karen.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2019 (Karen)</a> 40 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/2019-DOP_Thai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2019(Thai)</a> 1 Mb</li>
-									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/2019-DOP_Danish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2019 (Danish)</a> 24 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019.pdf"><img src="/images/pdficonsmall.gif"  /> Day of Prayer 2019 (English)</a> 24 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019_Burmese.pdf"><img src="/images/pdficonsmall.gif" /> sutaungghkyinnsai 2019 nae (Burmese)</a> 46 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019_Karen.pdf"><img src="/images/pdficonsmall.gif" /> Day of Prayer 2019 (Karen)</a> 40 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019_Thai.pdf"><img src="/images/pdficonsmall.gif" /> Wạn s̄wd mnt̒ 2019(Thai)</a> 1 Mb</li>
+									<li><a href="/IDX/Prayer/Day_of_Prayer/2019/DOP-2019_Danish.pdf"><img src="/images/pdficonsmall.gif" /> Dag i Bøn 2019 (Danish)</a> 24 Mb</li>
 									</ul>
                               <tr bgcolor="#FFFFFF"> 
                                 <td colspan="2"> 
